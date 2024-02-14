@@ -1,0 +1,33 @@
+openapi: 3.0.0
+info:
+  title: 02_BorrowBook
+  version: 1.0.0
+paths:
+  /borrow:
+    post:
+      summary: 02_BorrowBook
+      description: この関数は図書の貸し出し処理を行います。図書番号をbookId、利用者名をborrowedNameとして入力し、関数を実行してください。成功した場合は返却期限returnDateをUserに回答してください。足りない引数がある場合は、Userに追加の情報を要求してください。
+      operationId: borrow
+      parameters:
+        - name: bookId
+          in: path
+          description: 図書番号
+          required: true
+          schema:
+            type: string
+        - name: borrowedName
+          in: path
+          description: 利用者名
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: 貸し出し処理完了
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  body:
+                    type: string

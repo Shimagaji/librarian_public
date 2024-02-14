@@ -1,0 +1,38 @@
+openapi: 3.0.0
+info:
+  title: 01_CheckBorrowStatus
+  version: 1.0.0
+paths:
+  /check:
+    get:
+      summary: 01_CheckBorrowStatus
+      description: この関数は図書の貸し出しステータスを確認します。4桁の図書番号をbookIDとして入力します。
+      operationId: check
+      # requestBody:
+      #   required: true
+      #   content:
+      #     application/json:
+      #       schema:
+      #         type: object
+      #         properties:
+      #           bookId:
+      #             type: string
+      #             description: Number of the book
+      parameters:
+        - name: bookId
+          in: path
+          description: 図書番号
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: ステータス取得成功
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  contents:
+                    type: string
+                    description: 図書の貸し出しステータス

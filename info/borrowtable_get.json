@@ -1,0 +1,41 @@
+{
+    "Items": [
+        {
+            "bookId": {"N": "1001"},
+            "bookName": {"S": "星の海の冒険"},
+            "isBorrowed": {"BOOL": false},
+            "borrowedName": {"S": ""},
+            "returnDate": {"S": ""}
+        },
+        {
+            "bookId": {"N": "1002"},
+            "bookName": {"S": "時を越える手紙"},
+            "isBorrowed": {"BOOL": false},
+            "borrowedName": {"S": ""},
+            "returnDate": {"S": ""}
+        },
+        {
+            "bookId": {"N": "1003"},
+            "bookName": {"S": "忘れられた都市"},
+            "isBorrowed": {"BOOL": false},
+            "borrowedName": {"S": ""},
+            "returnDate": {"S": ""}
+        },
+        {
+            "bookId": {"N": "1004"},
+            "bookName": {"S": "ChatGPT/LangChainによるチャットシステム構築「実践」入門"},
+            "isBorrowed": {"BOOL": false},
+            "borrowedName": {"S": ""},
+            "returnDate": {"S": ""}
+        },
+        {
+            "bookId": {"N": "1005"},
+            "bookName": {"S": "シマリスを知る！"},
+            "isBorrowed": {"BOOL": false},
+            "borrowedName": {"S": ""},
+            "returnDate": {"S": ""}
+        }
+    ],
+    "Count": 5,
+    "ScannedCount": 5
+}

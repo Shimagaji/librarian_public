@@ -1,0 +1,149 @@
+[
+    {
+        "bookId": 1001,
+        "bookName": "星の海の冒険",
+        "isBorrowed": false,
+        "borrowedName": "",
+        "returnDate": ""
+    },
+    {
+        "bookId": 1002,
+        "bookName": "時を越える手紙",
+        "isBorrowed": false,
+        "borrowedName": "",
+        "returnDate": ""
+    },
+    {
+        "bookId": 1003,
+        "bookName": "忘れられた都市",
+        "isBorrowed": false,
+        "borrowedName": "",
+        "returnDate": ""
+    },
+    {
+        "bookId": 1004,
+        "bookName": "ChatGPT/LangChainによるチャットシステム構築「実践」入門",
+        "isBorrowed": false,
+        "borrowedName": "",
+        "returnDate": ""
+    },
+    {
+        "bookId": 1005,
+        "bookName": "ビジネスで勝つデータ分析",
+        "isBorrowed": false,
+        "borrowedName": "",
+        "returnDate": ""
+    },
+    {
+        "bookId": 1006,
+        "bookName": "次世代リーダーのためのAI戦略",
+        "isBorrowed": false,
+        "borrowedName": "",
+        "returnDate": ""
+    },
+    {
+        "bookId": 1007,
+        "bookName": "ブロックチェーン革命",
+        "isBorrowed": false,
+        "borrowedName": "",
+        "returnDate": ""
+    },
+    {
+        "bookId": 1008,
+        "bookName": "クラウドコンピューティングの基本",
+        "isBorrowed": false,
+        "borrowedName": "",
+        "returnDate": ""
+    },
+    {
+        "bookId": 1009,
+        "bookName": "デジタルマーケティングの教科書",
+        "isBorrowed": false,
+        "borrowedName": "",
+        "returnDate": ""
+    },
+    {
+        "bookId": 1010,
+        "bookName": "UXデザイン入門",
+        "isBorrowed": false,
+        "borrowedName": "",
+        "returnDate": ""
+    },
+    {
+        "bookId": 1011,
+        "bookName": "スタートアップ成功の法則",
+        "isBorrowed": false,
+        "borrowedName": "",
+        "returnDate": ""
+    },
+    {
+        "bookId": 1012,
+        "bookName": "イノベーションの心理学",
+        "isBorrowed": false,
+        "borrowedName": "",
+        "returnDate": ""
+    },
+    {
+        "bookId": 1013,
+        "bookName": "人工知能と法律の未来",
+        "isBorrowed": false,
+        "borrowedName": "",
+        "returnDate": ""
+    },
+    {
+        "bookId": 1014,
+        "bookName": "データ駆動型組織の構築",
+        "isBorrowed": false,
+        "borrowedName": "",
+        "returnDate": ""
+    },
+    {
+        "bookId": 1015,
+        "bookName": "サイバーセキュリティの基礎",
+        "isBorrowed": false,
+        "borrowedName": "",
+        "returnDate": ""
+    },
+    {
+        "bookId": 1016,
+        "bookName": "フィンテック革命の実態",
+        "isBorrowed": false,
+        "borrowedName": "",
+        "returnDate": ""
+    },
+    {
+        "bookId": 1017,
+        "bookName": "クリーンエネルギー技術の未来",
+        "isBorrowed": false,
+        "borrowedName": "",
+        "returnDate": ""
+    },
+    {
+        "bookId": 1018,
+        "bookName": "最先端テクノロジーの経済学",
+        "isBorrowed": false,
+        "borrowedName": "",
+        "returnDate": ""
+    },
+    {
+        "bookId": 1019,
+        "bookName": "デジタルトランスフォーメーション戦略",
+        "isBorrowed": false,
+        "borrowedName": "",
+        "returnDate": ""
+    },
+    {
+        "bookId": 1020,
+        "bookName": "ソーシャルメディアマーケティング入門",
+        "isBorrowed": false,
+        "borrowedName": "",
+        "returnDate": ""
+    },
+    {
+        "bookId": 1021,
+        "bookName": "ビッグデータ活用の教科書",
+        "isBorrowed": false,
+        "borrowedName": "",
+        "returnDate": ""
+    }
+]
