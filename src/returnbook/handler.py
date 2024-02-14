@@ -5,7 +5,7 @@ def lambda_handler(event, context):
     dynamodb = boto3.client('dynamodb')
 
     #デプロイされたテーブル名を指定
-    table_name = 'librarian-240124-BookList-1JSR2K7WXQGTI'
+    table_name = 'Librarian-BookList'
 
     # イベントからbookIdを取得
     parameters = event.get('parameters')

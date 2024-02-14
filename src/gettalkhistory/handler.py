@@ -5,7 +5,7 @@ from botocore.exceptions import ClientError
 dynamodb_client = boto3.client('dynamodb')
 
 # テーブル名を指定
-table_name = 'librarian-240124-TalkHistory-1SR3HJSPE9KBZ'
+table_name = 'Librarian-TalkHistory'
 
 def lambda_handler(event, context):
     try:
